@@ -1,0 +1,71 @@
+:root {
+    --cor-de-fundo-botao: gold;
+    --cor-fonte: white;
+    --cor-borda: black;
+
+}
+
+.titulo1 {
+    font-family: oswald;
+    color: var(--cor-fonte);
+    font-size: 10em;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.principal {
+    background-image: url(BuracoGabriel.jpeg);
+}
+
+* {
+    margin:0;
+    padding: 20px;
+    text-align:justify;
+}
+
+.container {
+    height: 100vh;
+}
+
+.teste {
+    text-align: justify;
+}
+
+.m87img {
+    width: 60%;
+}
+
+.singularidade {
+    width: 70%;
+}
+
+.horizonte {
+    width: 100%;
+}
+
+
+.lista-personagens {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    list-style: none;
+    font-family: oswald;
+    color: grey;
+    font-size: 50px;
+    display: flex;
+    
+}
+
+.botao {
+    padding: -10%;
+    text-align:left;
+    text-decoration: none;
+    color: grey;
+    justify-content:space-around;
+}
+
+.botao:hover {
+    color: rgb(255, 0, 0);
+    font-size: 125%;
+    
+}
